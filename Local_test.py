@@ -22,7 +22,7 @@ if __name__ == "__main__":
     device = torch.device(device)
 
     # Train part
-    parser = ArgumentParser(description="Training script for segmentation models")
+    parser = ArgumentParser(description="Test script for segmentation models")
     # Data paths
     parser.add_argument("-image", action="store", dest="image_dir_name", type=str, default='images_correct_labels' , help="Directory containing images")
     parser.add_argument("-label", action="store", dest="label_dir_name", type=str, default='mask_images_correct_labels' , help="Directory containing image labels")
