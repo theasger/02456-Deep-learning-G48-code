@@ -152,6 +152,7 @@ class FCN(nn.Module):
 class UNet(nn.Module):
     '''
     Taken from: https://www.kaggle.com/code/gokulkarthik/image-segmentation-with-unet-pytorch
+    User: Gokul
     '''
     def __init__(self, num_classes):
         super(UNet, self).__init__()
